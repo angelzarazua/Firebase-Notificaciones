@@ -1,0 +1,38 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Ionic Blank
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content >
+  
+
+  <ion-fab vertical="bottom" horizontal="end" slot="fixed">
+      <ion-fab-button (click)="add()">
+        <ion-icon name="add"></ion-icon>
+      </ion-fab-button>
+    </ion-fab>
+
+  <ion-card *ngFor="let pokemon of pokemos">
+    <ion-item>
+      <ion-button (click)="edit(pokemon)">
+          <ion-icon name="create" style="margin:20px" slot="start" ></ion-icon>
+      </ion-button>
+      
+      <ion-label>
+        {{pokemon.name}}
+      </ion-label>
+
+      <ion-button (click)="eli(pokemon)">
+        <ion-icon name="trash" slot="end" ></ion-icon>
+      </ion-button>
+      
+    </ion-item>
+    
+ 
+
+
+  </ion-card>
+</ion-content>

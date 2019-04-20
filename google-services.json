@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "487330195395",
+    "firebase_url": "https://mibase1.firebaseio.com",
+    "project_id": "mibase1",
+    "storage_bucket": "mibase1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:487330195395:android:79155fb0c6efe0ff",
+        "android_client_info": {
+          "package_name": "vv.ionic.fabricio"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "487330195395-dm3krjnjaj7qg569hm9jb2vt69bv5vsg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDIe9bC7nZ4IsPq7lfc-NZbT30X5XCzSLo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
